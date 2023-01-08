@@ -30,6 +30,7 @@ app.use(notFound)
 app.use(errorHandler)
 
 const PORT = 5000
+
 app.listen(PORT,() => {
     console.log("server is started on 5000")
 })
